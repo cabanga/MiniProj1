@@ -1,0 +1,10 @@
+.activebutton {
+    background: #fff;
+    border: 1px solid #d2f384;
+    color: #000 !important;
+}
+
+.nav-link {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
