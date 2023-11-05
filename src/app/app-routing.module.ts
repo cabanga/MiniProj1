@@ -5,14 +5,27 @@ import { QueFacoComponent } from './que-faco/que-faco.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 
 const routes: Routes = [
-    { path: '', component: QuemSouComponent },
-    { path: 'quem-sou', component: QuemSouComponent },
-    { path: 'o-que-faco', component: QueFacoComponent },
-    { path: 'meus-hobbies', component: HobbiesComponent },
+    {
+        path: '',
+        component: QuemSouComponent
+    },
+    {
+        path: 'quem-sou',
+        component: QuemSouComponent
+    },
+    {
+        path: 'o-que-faco',
+        component: QueFacoComponent
+    },
+    {
+        path: 'meus-hobbies',
+        component: HobbiesComponent
+    },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forRoot(routes)],
+    exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
