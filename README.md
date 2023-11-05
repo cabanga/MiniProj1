@@ -1,12 +1,14 @@
 # MiniProj1
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.4.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) na versão 16.2.4.
 
-## Development server
+## Testar e Visualizar
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Depois de clonar o projeto instalar as dependencias com `npm install` ou `yarn install` 
+De segida rodar o comando`ng serve` para levantar o servidor em modo de desenvolvimento. 
 
-## CONCEITO DE SPA
+Acessa o Navegador em `http://localhost:4200/`.
 
-`https://angular.io/guide/router-tutorial`
+## CONCEITO DE GERAL
+Este trabalho é destinado a UC de Programaçao Web Avançada, a criação de uma Single Page Application (SPA)
 
